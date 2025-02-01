@@ -8,7 +8,7 @@ Churn analysis encompasses a comprehensive evaluation of customer behavior, prod
 
 Developing a machine learning model to predict customer churn is crucial for improving customer retention and business performance. The objective of this project is to build a predictive model capable of identifying customers who are likely to leave the company. Before model development, thorough data analysis and feature engineering must be conducted to ensure optimal model performance.
 
-This project utilizes the Telcommunication Customer Churn dataset from Kaggle. Each row represents an individual customer, while each column contains specific customer attributes. The dataset comprises 21 variables and 500,000 customer records, including details such as customer ID, gender, phone service, and internet service. As shown in Table 1, the dataset consists of 17 categorical variables and 4 numerical variables, providing a comprehensive foundation for churn prediction analysis.
+This project utilizes the Telcommunication Customer Churn dataset from Kaggle. Each row represents an individual customer, while each column contains specific customer attributes. The dataset comprises 21 variables and 500,000 customer records (OUT OF WHICH 450,000 RECORDS WERE CREATED AS A DUMMY ROWS USING DATABRICKS TO EXPAND OUR DATA AND REDUCE ANY OUTLIER ERROR), including details such as customer ID, gender, phone service, and internet service. As shown in Table 1, the dataset consists of 17 categorical variables and 4 numerical variables, providing a comprehensive foundation for churn prediction analysis.
 
 ## Data Collection and Analysis
 Jupyter Python Notebook (NumPy, Pandas, Matplotlib, Seaborn) & Scrapy running on Cloud VM.
